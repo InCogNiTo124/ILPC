@@ -1,0 +1,424 @@
+16/1: x = 124
+16/2: y = 421
+16/3: x + y
+16/4: y - x
+16/5: x * y
+16/6: x ** 2
+16/7: x ** y
+16/8: x
+16/9: x = x+5
+16/10: x += 5
+16/11: x
+16/12: x -= 10
+16/13: x
+16/14: y / x
+16/15: type(x)
+16/16: type(y)
+16/17: type(y / x)
+16/18: 3.14 + 6.9
+16/19: 4.2
+16/20: y / x
+16/21: y // x
+16/22: 421 % 124
+16/23: y % x
+16/24: -1 % 10
+16/25: 12.4 // 5.2
+16/26: 12.4 % 5.2
+16/27: s = "InCogNiTo124"
+16/28: s + "abc"
+16/29: s
+16/30: s * 3
+16/31: "a" * 100
+16/32: s
+16/33: "hello world".split()
+16/34: s.split('o')
+16/35: "     line     ".strip()
+16/36: i = input().strip()
+   1: s = "InCogNiTo124"
+   2: s.lower()
+   3: s.upper()
+   4: s.count('o')
+   5: 'o'
+   6: "o"
+   7: s
+   8: '.'.join(s)
+   9: x = 124
+  10: y = 421
+  11: "x = {}".format(x)
+  12: "y = {}".format(x)
+  13: "Bok ja sam {} {}".format("Marijan", "Smetko")
+  14: "{0} {1} {0}".format("a", "b")
+  15: "{name} {surname}".format(name="Smetko", surname="Marijan")
+  16: s
+  17: x
+  18: type(x)
+  19: x = 'abc'
+  20: list()
+  21: tuple()
+  22: l = []
+  23: l = [1, 2, 3, 4, 5, 6, 7]
+  24: l
+  25: l[0]
+  26: l[1]
+  27: len(l)
+  28: l[len(l)-1]
+  29: l[-1]
+  30: l[-2]
+  31: l[-3]
+  32: l[-7]
+  33: l[-8]
+  34: l[2:5]
+  35: l
+  36: l[0:5]
+  37: l[:5]
+  38: l[:5]
+  39: l[2:]
+  40: l
+  41: l[1::2]
+  42: l
+  43: l.append(8)
+  44: l
+  45: l.insert(0, -1)
+  46: l
+  47: l.pop()
+  48: value = l.pop()
+  49: l
+  50: value
+  51: l.pop(2)
+  52: l
+  53: del(l[0])
+  54: l
+  55: l.remove(5)
+  56: l
+  57: l.insert(0, 42)
+  58: l
+  59: l
+  60: l.sort()
+  61: l
+  62: l = l.sort()
+  63: l
+  64: l = [1, 2, 3]
+  65: l
+  66: l.pop(1)
+  67: l
+  68: l = [1, 2, 3]
+  69: dva = l.pop(1)
+  70: dva
+  71: l
+  72: l = [1, 2, 3]
+  73: del(l[1])
+  74: l
+  75: a = del(l[1])
+  76: True
+  77: False
+  78: type(True)
+  79: x
+  80: x = 124
+  81: y = 421
+  82: x > y
+  83: x < y
+  84: x <= y
+  85: x != y
+  86: x == y
+  87: x = y
+  88: x
+  89: x = 124
+  90: s
+  91: s == 'abc'
+  92: s < 'abc'
+  93: s < 'abc'
+  94: s
+  95: 'o' in s
+  96: 'Cog' in s
+  97: not True
+  98: not False
+  99: s
+ 100: not ('z' in s)
+ 101: 'z' not in s
+ 102: [0, 2, 3] < [1, 2, 4]
+ 103: [1, 2, 4] < [1, 2, 3]
+ 104: ['Smetko', "Marijan"] < ["Smetko", 'Marina']
+ 105: x
+ 106: y
+ 107:
+if x < y:
+    print('ok')
+ 108:
+if y < x:
+    print('ok')
+else:
+    print('not ok')
+ 109:
+if y < x:
+    print('ok')
+elif x == y:
+    print('equal')
+else:
+    print('not ok')
+ 110:
+if 3 < 3:
+    print('ok')
+elif 3 == 3:
+    print('equal')
+else:
+    print('not ok')
+ 111: a = (x < 10) ? 3 : 4;
+ 112: a = 3 if x < 10 else 4
+ 113: l = [1, 2, 3, 4, 5, 6, 7]
+ 114: l
+ 115: l = [1, 2, 3, 4, 5, 6, 7]
+ 116:
+for element in l:
+    print(element)
+ 117:
+for element in l:
+    print(element**2)
+ 118:
+for element in l:
+   print(element**2)
+ 119:
+for element in l:
+   print(element**2)
+ 120: len(l)
+ 121:
+for i in range(0, 7):
+    print(l[i])
+ 122:
+for i in range(0, 5):
+    print(l[i])
+ 123:
+for i in range(0, 5):
+    print(l[i])
+ 124:
+for i in range(2, 5):
+    print(l[i])
+ 125:
+for i in range(0, 7, 2):
+    print(l[i])
+ 126:
+for i in range(len(l)):
+    print(l[i])
+ 127:
+for i in range(len(l)):
+    print(l[i])
+ 128: l = []
+ 129:
+for i in range(1, 101):
+    l.append(i)
+ 130: l
+ 131: l = [i for in range(1, 101)]
+ 132: l = [i for i in range(1, 101)]
+ 133: l
+ 134: l = [i for i in range(1, 101)]
+ 135: l = [n ** 2 for n in range(11)]
+ 136: l
+ 137:
+def is_even(n):
+    return n % 2 == 0
+ 138: is_even(2)
+ 139: is_even(3)
+ 140: is_even(4)
+ 141: is_even(5)
+ 142:
+def area(a, b):
+    return a * b
+ 143: area(12, 4)
+ 144: area(a=4, b=12)
+ 145:
+def hypothenuse(a, b):
+    c2 = a**2 + b**2
+    return c2 ** 0.5
+ 146: hypothenuse(3, 4)
+ 147: hypothenuse(12, 5)
+ 148:
+def area(a, b):
+    return a * b
+ 149: area('abc', 3)
+ 150: s
+ 151:
+def count(s1, s2):
+    return s1.count(s2)
+ 152: count(s, 'o')
+ 153: count(s, 'z')
+ 154: l
+ 155:
+def add(L, element):
+    l.append(element)
+    return l
+ 156: l
+ 157:
+def add(L, element):
+    L.append(element)
+    return L
+ 158: L2 = add(l, 121)
+ 159: l2
+ 160: L2
+ 161: L2
+ 162: l
+ 163: L2
+ 164: l
+ 165: l
+ 166: s
+ 167: s + 'abc'
+ 168: s
+ 169: (1, 2, 3)
+ 170: t = (1, 2, 3)
+ 171: x, y, z = t
+ 172: z
+ 173: y
+ 174: x
+ 175: names = [("Marijan", "Smetko"), ("Gordan", "Gledec"), ("Marko", "Cupic")]
+ 176:
+for name, surname in names:
+    print(surname, name)
+ 177:
+for name, surname in names:
+    print(surname, name)
+ 178: x
+ 179: y
+ 180: x, y = y, x
+ 181: x
+ 182: y
+ 183: x, y = y, x
+ 184: x
+ 185: y
+ 186: l
+ 187: suma = 0
+ 188: i = 0
+ 189:
+while suma < 100:
+    suma += l[i]
+    i += 1
+ 190: suma
+ 191:
+while True:
+    suma -= 2
+    if suma < 90:
+        break
+ 192: suma
+ 193: int
+ 194: float
+ 195: int()
+ 196: float()
+ 197: bool()
+ 198: one = '1'
+ 199: one + 2
+ 200: one * 3
+ 201: int(one)
+ 202: str(42)
+ 203: int('3.4')
+ 204: float('3.4')
+ 205: bool("False")
+ 206: bool(0)
+ 207: bool("False")
+ 208: s
+ 209: list(s)
+ 210: s
+ 211: s
+ 212: list(s)
+ 213:
+for character in s:
+    print(s * 3)
+ 214:
+for character in s:
+    print(character * 3)
+ 215: list(s)
+ 216: [s]
+ 217: '.'.join(s)
+ 218: l
+ 219: l = ["aba", "cbc", "D"]
+ 220: '-'.join(l)
+ 221: s = {1, 2, 3}
+ 222: s
+ 223: s = {1, 2, 3, 2, 3, 2, 3, 2, 3}
+ 224: s
+ 225: s = set([i for i in range(0, 10)])
+ 226: s
+ 227: a = set([i for i in range(5, 15)])
+ 228: a
+ 229: s & a
+ 230: s | a
+ 231: s | a
+ 232: s
+ 233: s.add(10)
+ 234: s
+ 235: s.add(4)
+ 236: s
+ 237: s |= 124
+ 238: s |= {124}
+ 239: s
+ 240: s
+ 241: a
+ 242: s - a
+ 243: d = {"a": 1, "b": 2, "c": 4}
+ 244: d
+ 245: l
+ 246: l[0]
+ 247: d['a']
+ 248: d['c']
+ 249: d['z']
+ 250: d['z'] = "spring"
+ 251: d
+ 252: d[0] = 12.4
+ 253: d
+ 254:
+for element in d:
+    print(element)
+ 255:
+for element in d:
+    print(element, d[element])
+ 256:
+for element in d.keys():
+    print(element)
+ 257:
+for element in d.values():
+    print(element)
+ 258:
+for key, value in d.items():
+    print(value, key)
+ 259: pwd
+ 260: file = open('file.txt')
+ 261: file.read()
+ 262: file.read()
+ 263: file.seek(0)
+ 264: file.read()
+ 265: file.read()
+ 266: file.close()
+ 267: file = open('file.txt', 'w')
+ 268: file.write(124)
+ 269: file.write("124")
+ 270: file.write("124")
+ 271: file.write("42")
+ 272: file.write("henlooo")
+ 273: file.write("henlooo")
+ 274: file.close()
+ 275: file = open('file.txt', 'a')
+ 276: file.write("apendano")
+ 277: file.close()
+ 278: file = open('file.txt', 'a')
+ 279: file.write('\n')
+ 280: file.write("novi redak\n")
+ 281: file.close()
+ 282:
+with open('file.txt', 'r') as file:
+    for line in file:
+        print(line)
+ 283: file.closed
+ 284:
+with open('file.txt', 'w') as file:
+    for i in range(10):
+        file.write("{}\n".format(i))
+ 285: file.closed
+ 286:
+def add_unique(filename):
+    suma = 0
+    appeared = set()
+    with open(filename, 'r') as file:
+        for line in file:
+            number = int(line.strip())
+            if number not in appeared:
+                suma += number
+                appeared |= {number}
+    return suma
+ 287: add_unique('file.txt')
+ 288: %history -g -f history01.txt
