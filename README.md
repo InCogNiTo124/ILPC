@@ -8,5 +8,6 @@ Predavanje 2 (_Batteries included_): https://drive.google.com/file/d/1G6OosD6Bwb
 
 Predavanje 3 (Funkcijsko programiranje): https://drive.google.com/file/d/1SywoLUnU-Z2FGL9T7SbTkRzjhCLmVait/view?usp=sharing
 
+Predavanje 4 (Objektno orjentirano programiranje): https://drive.google.com/file/d/1aFZ3eSJ3YM-1tiB1Qcbq-ro0n_AXoTtq/view?usp=sharing
 
 [Buy me a coffee!☕](https://www.buymeacoffee.com/ilpc)
