@@ -10,7 +10,9 @@ Predavanje 3 (Funkcijsko programiranje): https://drive.google.com/file/d/1SywoLU
 
 Predavanje 4 (Objektno orjentirano programiranje): https://drive.google.com/file/d/1aFZ3eSJ3YM-1tiB1Qcbq-ro0n_AXoTtq/view?usp=sharing
 
-Predavanje 5 (Numpy): https://drive.google.com/file/d/1mJxCz1atqWSDOmGTUAdfMJ45LEWMM7b5/view
+Predavanje 5 (Numpy): https://drive.google.com/file/d/1mJxCz1atqWSDOmGTUAdfMJ45LEWMM7b5/view?usp=sharing
+
+Predavanje 6 (Svašta nešto): https://drive.google.com/file/d/1bWFwFXgpTKyN_mwRUrv0j_q0IQA4YtLy/view?usp=sharing
 
 
 [Buy me a coffee!☕](https://www.buymeacoffee.com/ilpc)
